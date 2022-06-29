@@ -34,7 +34,27 @@
 
 *Here are just few notes about running migrations. Please note that if u have one migration or more than one migration & are not happy with the changes made to the database u can undo the changes made by running this command `update-database 0` The number Zero is a special case that means before the first migration & causes the effects of all migrations to be rolled back. You may wish To Remove the migrations after this. You can remove a migration that has not yet been used to update the database by running the command `remove-migration`. The remove-migration command will remove the last migration that has not yet run. Note that if for example you have Upadate a database with multiple migrations Like `Migration1 or Migration2 or Migration3 or Migration4 or Migration5`.  & if u wish to rollback the changes to before a particular migration was run you can Rollback your changes to that particular state by running the migration that was run directly before the migrations that were run that contain the changes you wish to roll back `update-database Migration2`*
 
-*[SPA (Single-page application)](https://developer.mozilla.org/en-US/docs/Glossary/SPA) [The web and web standards](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards) [How to Integrate a Payment Gateway Into a Website](https://www.wikihow.com/Integrate-a-Payment-Gateway-Into-a-Website) [Recompile](https://www.computerhope.com/jargon/r/recompile.htm) [Plugin](https://www.computerhope.com/jargon/p/plugin.htm) [PayPal](https://www.paypal.com/us/sig) [Debit Card vs. Credit Card: What's the Difference?](https://www.investopedia.com/ask/answers/050415/what-are-differences-between-debit-cards-and-credit-cards.asp) [.NET documentation](https://docs.microsoft.com/en-us/dotnet/) [Web APIs](https://developer.mozilla.org/en-US/docs/Web/API https://en.wikipedia.org/wiki/Web_API) [API](https://en.wikipedia.org/wiki/API)*
+*[SPA (Single-page application)](https://developer.mozilla.org/en-US/docs/Glossary/SPA) 
+[XML introduction](https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction)
+[WebSocket](https://en.wikipedia.org/wiki/WebSocket https://developer.mozilla.org/en-US/docs/Web/API/WebSocket https://datatracker.ietf.org/doc/html/rfc6455)
+[Document Object Model (DOM)](https://en.wikipedia.org/wiki/Document_Object_Model https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+[Ajax (programming)]( https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX https://developer.mozilla.org/en-US/docs/Glossary/AJAX)
+[Understanding client-side JavaScript frameworks](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks)
+[API](https://developer.mozilla.org/en-US/docs/Glossary/API)
+[JavaScript](https://developer.mozilla.org/en-US/docs/Glossary/JavaScript https://www.ecma-international.org/publications-and-standards/standards/ecma-262/ https://eloquentjavascript.net/)
+[React](https://reactjs.org/)
+[Angular](https://angular.io/)
+[VueJS](https://vuejs.org/)*
+
+*
+[The web and web standards](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards)
+[How to Integrate a Payment Gateway Into a Website](https://www.wikihow.com/Integrate-a-Payment-Gateway-Into-a-Website) [Recompile](https://www.computerhope.com/jargon/r/recompile.htm)
+[Plugin](https://www.computerhope.com/jargon/p/plugin.htm) 
+[PayPal](https://www.paypal.com/us/sig) 
+[Debit Card vs. Credit Card: What's the Difference?](https://www.investopedia.com/ask/answers/050415/what-are-differences-between-debit-cards-and-credit-cards.asp) [.NET documentation](https://docs.microsoft.com/en-us/dotnet/) 
+[Web APIs](https://developer.mozilla.org/en-US/docs/Web/API https://en.wikipedia.org/wiki/Web_API) 
+[API](https://en.wikipedia.org/wiki/API)*
+
 
 *[World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web) [Web3](https://en.wikipedia.org/wiki/Web3) [Web technology for developers](https://developer.mozilla.org/en-US/docs/web) [WebAssembly](https://webassembly.org/ https://developer.mozilla.org/en-US/docs/WebAssembly https://en.wikipedia.org/wiki/WebAssembly) [Blazor](https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor https://docs.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-6.0 https://blazor-university.com/) [Common client-side web technologies](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-client-side-web-technologies) [What is Interactive App and Why It Matters for Your Business](https://www.visartech.com/blog/what-is-interactive-app-and-how-business-benefits/) [Client-side](https://en.wikipedia.org/wiki/Client-side)*
 
