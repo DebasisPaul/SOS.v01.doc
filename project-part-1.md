@@ -106,7 +106,8 @@
 - [8 Types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/types) 
 - [Built-in types (C# reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types) 
 - [Primary and Foreign Key Constraints](https://docs.microsoft.com/en-us/sql/relational-databases/tables/primary-and-foreign-key-constraints?view=sql-server-ver16)
-- [Microsoft identity platform documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/ https://docs.microsoft.com/en-us/azure/active-directory/develop/ https://support.microsoft.com/en-us/office/create-entity-relationship-diagrams-in-visio-7e44448c-9415-490b-8af1-f548f46ae90c https://support.microsoft.com/en-us/office/create-a-database-model-also-known-as-entity-relationship-diagram-in-visio-7042e719-384a-4b41-b29c-d1b35719fc93 https://techcommunity.microsoft.com/t5/microsoft-365-blog/design-your-database-using-an-entity-relationship-diagram-erd-in/ba-p/1422559)
+- [Microsoft identity platform documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/ https://docs.microsoft.com/en-us/azure/active-directory/develop/)
+- [Entity Relationship Diagram](https://support.microsoft.com/en-us/office/create-entity-relationship-diagrams-in-visio-7e44448c-9415-490b-8af1-f548f46ae90c https://support.microsoft.com/en-us/office/create-a-database-model-also-known-as-entity-relationship-diagram-in-visio-7042e719-384a-4b41-b29c-d1b35719fc93 https://techcommunity.microsoft.com/t5/microsoft-365-blog/design-your-database-using-an-entity-relationship-diagram-erd-in/ba-p/1422559)
 - [SQL Server Management Studio (SSMS) 19 (Preview)](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms-19?view=sql-server-ver16
 - [Entity Framework documentation](https://docs.microsoft.com/en-us/ef/) 
 - [NuGet documentation](https://docs.microsoft.com/en-us/nuget/) 
