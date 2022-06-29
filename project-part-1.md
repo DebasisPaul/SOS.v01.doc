@@ -1,4 +1,4 @@
-# 🙌 👍 part-1
+
 
 *Blazor Web Assembly is a `Single page app framework` for building `interective` `client side` `web app`s with `dot net`. It uses `open Web standard` without `plugin or recompiling code` into other languages. This Course will teach you how to use `balzor web assembly` & `web api` on .Net 6 . We will build step by step a `shopping Cart Application`. We also provide the guide on how to `intigrate a payment gateway` into our `blazor web Assembly` component so that a user able to pay for products through our application using a `debit or credit card` or in the `paypal account`.*
 
