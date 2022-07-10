@@ -2,8 +2,8 @@
 
 *🧰 PlayTimeGiftStore*
 
-<img src="https://fly.namesbee.com/storage/2021/12/cute-name-for-shop-online.jpg?strip=all&lossy=1&webp=80&ssl=1" style="width:800px;height:400px;">
-<img src="https://fly.namesbee.com/storage/2021/12/online-shop-name.jpg?strip=all&lossy=1&webp=80&ssl=1" style="width:800px;height:400px;">
+<img src="https://fly.namesbee.com/storage/2021/12/cute-name-for-shop-online.jpg?strip=all&lossy=1&webp=80&ssl=1" style="width:600px;height:300px;">
+<img src="https://fly.namesbee.com/storage/2021/12/online-shop-name.jpg?strip=all&lossy=1&webp=80&ssl=1" style="width:600px;height:300px;">
 
 
 *👀 Business Enquiry*
