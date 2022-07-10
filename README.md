@@ -10,7 +10,6 @@
 
 ```Email 
 debasispaul@outlook.in 
-debasispaul@outlook.com
 ```
 *🚀 Contribution*
 
