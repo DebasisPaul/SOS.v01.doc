@@ -1,4 +1,4 @@
-* Start Part 6*
+*Start Part 6*
 
 *2:52:43
 this is the sixth part in a video series dedicated to building a shopping cart application using blazor webassembly on .net 6. so we have created three workflows let's recap the first workflow involves retrieving products data from the database and displaying the products data to the user in an aesthetically pleasing style the second workflow involves retrieving details for an individual product and displaying the relevant details in an aesthetically pleasing style to the user the third workflow involves the user adding a product to the user's shopping cart and the user being navigated to a screen that displays a list of products contained within the user's shopping cart in this video we'll create the workflow that involves a user removing a product from the user's shopping cart let's get started let's start by implementing the server side code let's go to our shoponline.api project and open the shopping cart repository.cs*
