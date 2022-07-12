@@ -1,13 +1,24 @@
 *start Part 7*
+*30 Min Read*
 
 *3:14:05
-this is the seventh part of a video series dedicated to building a shopping cart application using blazerwebassemblyon.net 6. so in the previous part of this series we created functionality whereby a user can delete an item from the user's shopping cart in this video we are going to create the functionality whereby a user is able to update the quantity of a particular product that has been placed within the user's shopping cart a notable feature that we'll add is the showing and hiding of the update qty button so we only want the update qty button to appear when the user changes the appropriate value in the field denoting the quantity of a particular item in the user's shopping cart when the relevant field is changed the relevant update qty button appears once the user has clicked the update qty button to update the quantity of a particular item in the user's shopping cart we want the update qty button to disappear to achieve the appropriate showing and hiding of the update qty button we are going to invoke a javascript method this brings us to an important question how do we integrate javascript into our blazer webassembly component in this video we are going to look at how we can use blaze's javascript*
+this is the seventh part of a video series dedicated to building a shopping cart application using blazerwebassembly on .net 6. so in the previous part of this series we created functionality whereby a user can delete an item from the user's shopping cart in this video we are going to `create the functionality` whereby a user is able to update the quantity of a particular product that has been placed within the user's shopping cart a notable feature that we'll add is `the showing and hiding of the update qty button` so we only want the update qty button to appear when the user changes the appropriate value in the field denoting the quantity of a particular item in the user's shopping cart when the relevant field is changed the relevant update qty button appears once the user has clicked the update qty button to update the quantity of a particular item in the user's shopping cart we want the update qty button to disappear to achieve the appropriate showing and hiding of the update qty button we are going to invoke a javascript method this brings us to an important question how do we integrate javascript into our blazor webassembly component in this video we are going to look at how we can use blazor javascript*
+
+*[ASP.NET Core Blazor JavaScript interoperability (JS interop)](https://docs.microsoft.com/en-us/aspnet/core/blazor/javascript-interoperability/?view=aspnetcore-6.0) [JavaScript Function Invocation](https://www.w3schools.com/js/js_function_invocation.asp)*
 
 *3:15:46
 interoperability feature to interact with javascript code from within our blazer webassembly component we'll implement this functionality toward the end of the video so please stick around to the end to learn about javascript interoperability with blazer to start with let's create the server-side code for the update qty functionality so let's get started let's go to the shoponline.api project let's open the shopping cart repository class let's implement the code logic for the update qty method first thing to do is reference the item that we wish to update so if we are able to find the relevant item within our database and therefore the item variable will not be null we can then update the qty field with the value passed in from the client and to commit the change to the database we must of course call the save changes async method let's write code to return null to the calling client for when the item is not found within the database let's expose the update quantity functionality to our calling client through an action method let's open the shopping cart controller class let's create an action method named update qty let's appropriately call the update qty method on the shopping cart repository object to update the relevant resource with the qty value passed into our action method by the client let's use our convert to dto method to appropriately convert the cart item object into an object of type cart item dto we can then write code to return the relevant object of type cart item dto to the calling client along with the http code status of 200 ok let's include the appropriate exception handling code so we have so far created action methods that correspond to the http get verb the http post verb and the http delete verb the other two most common http verbs are the http put verb and the http patch verb the http put verb and the http patch verb are both associated with the performance of resource updates the difference between these two http verbs is that the http put verb is associated with action methods that modify a resource where the client sends data that updates the entire resource the http patch verb however is associated with action methods that partially update the respective resource so we want our update qty method to update only the qty field for a cart item resource so this means it is appropriate to associate our update qty action method with the http patch verb we can write declarative code to indicate that this action method is associated with a http patch verb to do this we can appropriately decorate the update qty action method with the http patch attribute like this note that we are passing in data to the http patch attribute that provides necessary route template information this indicates that the uri for the relevant endpoint must appropriately contain the id of the resource that the client wishes to modify right let's write the appropriate code for the blazer component so let's go to the shoponline.web project*
 
+*[9 Variables](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/variables) [null (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null) [Databases](https://docs.microsoft.com/en-us/sql/relational-databases/databases/databases?view=sql-server-ver16) [Shopping Cart
+](https://docs.microsoft.com/en-us/aspnet/web-forms/overview/getting-started/getting-started-with-aspnet-45-web-forms/shopping-cart) [Object-Oriented programming (C#)](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/oop) [Objects - create instances of types](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/objects) [DbContext.SaveChangesAsync Method](https://docs.microsoft.com/en-us/dotnet/api/system.data.entity.dbcontext.savechangesasync?view=entity-framework-6.2.0) [Action Delegate](https://docs.microsoft.com/en-us/dotnet/api/system.action?view=net-6.0) [Create Data Transfer Objects (DTOs)](https://docs.microsoft.com/en-us/aspnet/web-api/overview/data/using-web-api-with-entity-framework/part-5) [Configure endpoints for the ASP.NET Core Kestrel web server](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel/endpoints?view=aspnetcore-7.0) [Uri Class](https://docs.microsoft.com/en-us/dotnet/api/system.uri?view=net-6.0) [Routing in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-6.0) [RouteTemplate Class](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.routing.template.routetemplate?view=aspnetcore-6.0) [Routing to controller actions in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/routing?view=aspnetcore-6.0)*
+
+*[PATCH](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PATCH) [PUT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT) [DELETE](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/DELETE) [POST
+](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST) [HTTP request methods](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/exceptions/) [200 OK](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200) [https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/exceptions/)*
+
 *3:21:10
 let's open the i shopping cart service class let's open the shopping cart service class to implement the code logic for the update qty method let's first serialize the dto that we wish to pass to the server into json format let's create an object of type string content so that we can appropriately pass the relevant data in the appropriate format to the server let's call the patch async method on our http client object and pass in the appropriate uri as well as the relevant data to the patch async method if the http response status code falls within the success range let's include code that returns the appropriate data returned from the server to the calling code let's go to the shopping cart base class let's create a method that will handle the update qty button click event so the calling code will pass in the id of the shopping cart item that the user wishes to update as well as the relevant quantity value if the quantity value is greater than zero meaning that the quantity or qty field value is valid we can appropriately call the update qty method on the shopping cart service object to call the relevant server side code in order to update the database appropriately*
+
+*[Service Class](https://docs.microsoft.com/en-us/dotnet/api/system.web.services.description.service?view=netframework-4.8)*
 
 *3:25:35
 else if the calling code passes in an invalid quantity let's set the quantity field for the relevant cart item to one let's go to the shopping cart dot raise a file let's add an input field that will allow a user to modify the quantity of a particular item in the user's shopping cart note that we are using blazers at bind syntax to bind each quantity input field to the corresponding property of the appropriate object of type cart item dto stored within the shopping cart items collection this means for example that if the qty property for a cart item dto object stored within the shopping cart items collection is modified that this modification will immediately be reflected on the ui in the appropriate quantity input field let's create the update qty button that a user can click in order to update the quantity of a particular item let's use blazes at onclick syntax to call the appropriate event handler method that we have created within the*
@@ -30,31 +41,3 @@ for this purpose one might think that the at on change syntax should be used for
 let's decorate this property with the inject attribute so that an appropriate object of type ijs runtime will be injected into our razor component at runtime we can then use the object to appropriately call our make update qty button visible javascript function like this let's go to our shopping cart dot race of file and appropriately call our update qty underscore input method lastly let's write code that calls the relevant javascript function to make the relevant update qty button disappear once the relevant button has been clicked let's run the code excellent*
 
 *End Part-7*
-
-
-
-
-
-
-
-
-
-
-*
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
