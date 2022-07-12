@@ -16,4 +16,45 @@ else if the calling code passes in an invalid quantity let's set the quantity fi
 shopping cart base class let's stand by our convention to use the underscore click suffix for these type of event handler methods so let's change the name of the relevant method from update qty cart item to update qty cart item underscore click then we can write code to pass in the appropriate values to our update qty cart item underscore click method let's test the code great so we haven't yet written code so that the total quantity and total price is reflected within the cart item summary information displayed to the user on the right-hand side of the user's screen let's implement the code for this so firstly let's include two properties within our shopping cart base class let's include a property to store the total price of the items within the user's shopping cart and the total quantity of the items stored within the user's shopping cart let's create a private method named set total price which is responsible for calculating the total price of all the items stored within the user's shopping cart and assigning the result of this calculation to the relevant property let's create a private method named calculate cart item summary totals let's call the set total price method as well as the set total quantity method from within the calculate cart summary totals method we want the total price of all the items stored within the user's shopping cart as well as the total quantity of items*
 
 *3:32:17
-stored within the user's shopping cart to be reflected on the ui whenever a user action results in the state of the shopping cart changing so let's appropriately call our calculate card summary totals method from within the update qty cart item underscore click event handler method the delete cart item underscore click event handler method*
+stored within the user's shopping cart to be reflected on the ui whenever a user action results in the state of the shopping cart changing so let's appropriately call our calculate card summary totals method from within the update qty cart item underscore click event handler method the delete cart item underscore click event handler method the delete cart item underscore click event handler method and the on initialized async method that is called when the razer component is rendered let's go to the shoppingcart.racer file and implement the code that will result in the appropriate summary totals being reflected appropriately on the ui before we run the code we must also include a method in the shopping cart base class that updates the total price property on the relevant object of type cart item dto when the relevant quantity property is updated for a particular cart item by the user so basically if for example a cart item has a price of 50 dollars and the user updates its quantity property from one to two we need to change the cart items total price from fifty dollars to a hundred dollars
+to calculate the total price is simply a mathematical operation of price multiplied by quantity so let's create a method named update item total price let's call our get card item private method to reference the relevant cart item then we can update its total price property with the result of the calculation that we have just discussed we want our update item total price method invoked every time the quantity for an item within the user's shopping cart changes so let's implement the code for this appropriately great let's run the code excellent so let's look at javascript interoperability in a blazer webassembly component let's implement the code so that our update qty button is only shown to the user when the state of the relevant input field changes so let's first create a css file for our shopping cart razor component so let's create a css file named shoppingcart.razer.css as discussed when we create a css file that only applies to a specific razor component we must adhere to a specific naming convention let's create a css class named update dash qty that contains the code display colon none so we can apply this class to the update qty button like this to ensure that when the relevant razer component first loads that the update qty button is not displayed to the user so the next step is to create a*
+
+*3:37:14
+javascript method that is invoked when the quantity input field is changed by the user this javascript method will be responsible for appropriately showing and hiding the relevant update qty button let's create a folder within the www
+root folder of our project named js let's add a javascript file named shoppingcartfunctions.js to the js folder let's create a javascript function named make update qty button visible this function accepts two arguments one denotes the id of the relevant cart item and the other denotes a boolean value so in order to be able to identify the relevant button within our javascript code we can apply a data attribute to the relevant html element so let's go to our shoppingcart.razer file and include a data attribute named data dash item id and set its value to the id of the relevant cart item the code for the javascript function is
+fairly basic let's use our data attribute to reference the appropriate button element we are using the data dash item id data attribute to identify a specific update qty button if the boolean value is true we want code to execute within our javascript function to make the relevant button visible if the boolean value is false we want our function to make the relevant button
+invisible let's appropriately reference our new javascript file from within the index.html file then we need to write code to detect when a quantity input field or qty input field is changed by the user we can use blaze's at on input syntax*
+
+*3:40:29
+for this purpose one might think that the at on change syntax should be used for this purpose but a method executed in response to the at once syntax will only be invoked when the relevant input field loses focus we want our method to be invoked immediately when the relevant input field's value changes so let's implement a method within the shoppingcartbase.cs class that will be invoked when a quantity input field is changed so we want our make update qty button visible javascript function to be invoked when a quantity input field is changed so how can we call a javascript function from within a razer component the answer to this is that we can use the built-in js runtime type for this purpose so let's create a property of type i js runtime
+let's decorate this property with the inject attribute so that an appropriate object of type ijs runtime will be injected into our razor component at runtime we can then use the object to appropriately call our make update qty button visible javascript function like this let's go to our shopping cart dot race of file and appropriately call our update qty underscore input method lastly let's write code that calls the relevant javascript function to make the relevant update qty button disappear once the relevant button has been clicked let's run the code excellent*
+
+*End Part-7*
+
+
+
+
+
+
+
+
+
+
+*
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
