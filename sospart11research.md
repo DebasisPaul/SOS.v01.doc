@@ -1,0 +1,17 @@
+- [ComponentBase.OnParametersSetAsync Method](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.components.componentbase.onparameterssetasync?view=aspnetcore-6.0)
+- [Asynchronous programming with async and await](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/)
+- [base (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/base)
+- [Extension Methods (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods)
+- [Collections (C#)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections)
+- [Collection.Add(Object, String, Object, Object) Method](https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualbasic.collection.add?view=net-6.0)
+- [Window.localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+- [ASP.NET Core Blazor JavaScript interoperability (JS interop)](https://docs.microsoft.com/en-us/aspnet/core/blazor/javascript-interoperability/?view=aspnetcore-6.0)
+- [Extension Methods (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods)
+- [Lambda expressions (C# reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions)
+- [EntityFrameworkQueryableExtensions.Include Method](https://docs.microsoft.com/en-us/dotnet/api/microsoft.entityframeworkcore.entityframeworkqueryableextensions.include?view=efcore-6.0)
+- [Introduction to LINQ Queries (C#)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries)
+- [ObjectQuery<T>.Include(String) Method](https://docs.microsoft.com/en-us/dotnet/api/system.data.objects.objectquery-1.include?view=netframework-4.8)
+- [Collection<T>.Add(T) Method](https://docs.microsoft.com/en-us/dotnet/api/system.collections.objectmodel.collection-1.add?view=net-6.0)
+- [Collection<T>.Remove(T) Method](https://docs.microsoft.com/en-us/dotnet/api/system.collections.objectmodel.collection-1.remove?view=net-6.0)
+
+
