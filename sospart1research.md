@@ -1,4 +1,4 @@
-*
+
 - [SPA (Single-page application)](https://developer.mozilla.org/en-US/docs/Glossary/SPA) 
 - [XML introduction](https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction)
 - [WebSocket](https://en.wikipedia.org/wiki/WebSocket https://developer.mozilla.org/en-US/docs/Web/API/WebSocket https://datatracker.ietf.org/doc/html/rfc6455
