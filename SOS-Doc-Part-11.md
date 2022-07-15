@@ -1,6 +1,6 @@
 *start part 11*
 
-*hi and welcome i'm gavin lon this is the 11th and final part in a
+*hi and welcome i'm Debasis Paul this is the 11th and final part in a
 series of videos dedicated to building a shopping cart application using blazer
 web assembly and web api on net six so we have now built our basic shopping
 cart application but is software ever really 100 complete
