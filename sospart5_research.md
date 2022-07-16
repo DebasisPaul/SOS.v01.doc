@@ -1,0 +1,12 @@
+
+- [repository design pattern](https://www.linkedin.com/pulse/repository-pattern-c-pawan-verma https://codewithshadman.com/repository-pattern-csharp/ https://www.codeguru.com/csharp/repository-pattern-c-sharp/ https://dotnettutorials.net/lesson/repository-design-pattern-csharp/)
+- [NavigationManager Class](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.components.navigationmanager?view=aspnetcore-6.0)
+- [NavigationManager.NavigateTo Method](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.components.navigationmanager.navigateto?view=aspnetcore-6.0)
+- [ASP.NET Core Blazor routing and navigation](https://docs.microsoft.com/en-us/aspnet/core/blazor/fundamentals/routing?view=aspnetcore-6.0)
+- [ComponentBase Class](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.components.componentbase?view=aspnetcore-6.0)
+- [Use breakpoints in the Visual Studio debugger](https://docs.microsoft.com/en-us/visualstudio/debugger/using-breakpoints?view=vs-2022)
+- [Hard coding](https://en.wikipedia.org/wiki/Hard_coding)
+- [Button.Click Event](https://docs.microsoft.com/en-us/dotnet/api/system.web.ui.webcontrols.button.click?view=netframework-4.8)
+- [Button.OnClick(EventArgs) Method](https://docs.microsoft.com/en-us/dotnet/api/system.web.ui.webcontrols.button.onclick?view=netframework-4.8)
+- [readonly (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/readonly)
+- [DbContext.AddAsync Method](https://docs.microsoft.com/en-us/dotnet/api/microsoft.entityframeworkcore.dbcontext.addasync?view=efcore-6.0)
