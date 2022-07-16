@@ -1,0 +1,6 @@
+- [Stripe Checkout with Blazor WebAssembly in .NET 5 | Blazor E-Commerce Series #12](https://www.youtube.com/watch?v=SYazJ2ddZ4s&ab_channel=PatrickGod)
+- [What’s A Payment Gateway And How Does It Work?](https://www.forbes.com/advisor/business/what-is-a-payment-gateway/ https://www.investopedia.com/terms/p/payment-gateway.asp https://www.ecommerceceo.com/learn/payment-gateway/)
+- [On .NET Live - Processing payments with C# and Stripe](https://www.youtube.com/watch?v=Wl4ybEE4Bxc&ab_channel=dotNET)
+- [Building Secure APIs with ASP.NET Core using Identity & JWT](https://www.youtube.com/playlist?list=PLFJQnCcZXWjuHP03Kgf46FrX5L2fRzDsx)
+- [Directives for ASP.NET Web Pages](https://docs.microsoft.com/en-us/previous-versions/aspnet/t8syafc7(v=vs.100))
+- [HTML <input type="hidden">](https://www.w3schools.com/tags/att_input_type_hidden.asp)
