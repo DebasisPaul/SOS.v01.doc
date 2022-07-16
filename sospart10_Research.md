@@ -1,0 +1,1 @@
+- [Design Patterns: Don't Repeat Yourself in C#](https://www.youtube.com/watch?v=dhnsegiPXoo&ab_channel=IAmTimCorey https://en.wikipedia.org/wiki/Don%27t_repeat_yourself https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
