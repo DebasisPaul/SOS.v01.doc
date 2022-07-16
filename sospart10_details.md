@@ -58,7 +58,7 @@ so to solve this i'm simply going to copy the css code from the navmenu.razer.cs
 a new css file that we must name product categories nav menu dot razer dot css
 so this will result in the product category menu items being styled like
 the home menu item so we are flagrantly violating the
-principle of dry don't repeat yourself here i'm doing this deliberately to keep up
+principle of `dry don't repeat yourself` here i'm doing this deliberately to keep up 
 the momentum and creating the code for this application so that i can effectively keep the focus on the
 aspects that are the subject of this part of the course you can of course centralize the css
 code for the menu items in adherence with the principle of dry however for the reasons i've just explained i won't
