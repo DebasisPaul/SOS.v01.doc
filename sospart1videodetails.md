@@ -22,3 +22,6 @@
 *project file .csproj*
 - [Understanding the project file](https://docs.microsoft.com/en-us/aspnet/web-forms/overview/deployment/web-deployment-in-the-enterprise/understanding-the-project-file)
 - [.NET project SDKs](https://docs.microsoft.com/en-us/dotnet/core/project-sdk/overview)
+- [Configuration in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-6.0)
+
+*shopOnlineDbContext.cs*
