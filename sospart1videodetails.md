@@ -12,4 +12,13 @@
 - [Indexers (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/indexers/)
 - [interface (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/interface)
 - [static (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/static)
-- 
+
+
+*Create appsettings.json*
+- [Connection Strings](https://docs.microsoft.com/en-us/ef/core/miscellaneous/connection-strings)
+- [Logging in .NET Core and ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/?view=aspnetcore-6.0)
+- [  "AllowedHosts": "*"](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.hostfiltering.hostfilteringoptions.allowedhosts?view=aspnetcore-6.0)
+
+*project file .csproj*
+- [Understanding the project file](https://docs.microsoft.com/en-us/aspnet/web-forms/overview/deployment/web-deployment-in-the-enterprise/understanding-the-project-file)
+- [.NET project SDKs](https://docs.microsoft.com/en-us/dotnet/core/project-sdk/overview)
