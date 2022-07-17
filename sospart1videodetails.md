@@ -25,3 +25,54 @@
 - [Configuration in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-6.0)
 
 *shopOnlineDbContext.cs*
+
+```
+public class ShopOnlineDbContext:DbContext
+    {
+        public ShopOnlineDbContext(DbContextOptions<ShopOnlineDbContext> options):base(options)
+        {
+            
+        }
+```
+- [DbContext Class](https://docs.microsoft.com/en-us/dotnet/api/microsoft.entityframeworkcore.dbcontext?view=efcore-6.0 https://docs.microsoft.com/en-us/dotnet/api/system.data.entity.dbcontext?view=entity-framework-6.2.0)
+- [DbContext Lifetime, Configuration, and Initialization](https://docs.microsoft.com/en-us/ef/core/dbcontext-configuration/)
+- [Working with DbContext](https://docs.microsoft.com/en-us/ef/ef6/fundamentals/working-with-dbcontext)
+
+```
+ protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+```
+- [DbContext.OnModelCreating(ModelBuilder) Method](https://docs.microsoft.com/en-us/dotnet/api/microsoft.entityframeworkcore.dbcontext.onmodelcreating?view=efcore-6.0)
+- [DbContext.OnModelCreating(DbModelBuilder) Method](https://docs.microsoft.com/en-us/dotnet/api/system.data.entity.dbcontext.onmodelcreating?view=entity-framework-6.2.0)
+- [Creating and configuring a model](https://docs.microsoft.com/en-us/ef/core/modeling/)
+- [Inheritance](https://docs.microsoft.com/en-us/ef/core/modeling/inheritance)
+- [Entity Properties](https://docs.microsoft.com/en-us/ef/core/modeling/entity-properties?tabs=data-annotations%2Cwithout-nrt)
+
+```
+         modelBuilder.Entity<Product>().HasData(new Product
+            {
+                Id = 1,
+                Name = "Glossier - Beauty Kit",
+                Description = "A kit provided by Glossier, containing skin care, hair care and makeup products",
+                ImageURL = "/Images/Beauty/Beauty1.png",
+                Price = 100,
+                Qty = 100,
+                CategoryId = 1
+
+            });
+```
+
+- [EntityTypeBuilder<TEntity>.HasData Method](https://docs.microsoft.com/en-us/dotnet/api/microsoft.entityframeworkcore.metadata.builders.entitytypebuilder-1.hasdata?view=efcore-6.0)
+  [EntityTypeBuilder.HasData Method](https://docs.microsoft.com/en-us/dotnet/api/microsoft.entityframeworkcore.metadata.builders.entitytypebuilder.hasdata?view=efcore-6.0)
+  
+  ```
+        public DbSet<Cart> Carts { get; set; }
+        public DbSet<CartItem> CartItems { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<ProductCategory> ProductCategories { get; set; }
+        public DbSet<User> Users { get; set; }
+  ```
+  - [Defining DbSets](https://docs.microsoft.com/en-us/ef/ef6/modeling/code-first/dbsets)
+  [DbSet Class](https://docs.microsoft.com/en-us/dotnet/api/system.data.entity.dbset?view=entity-framework-6.2.0)
+  [DbSet<TEntity> Class](https://docs.microsoft.com/en-us/dotnet/api/system.data.entity.dbset-1?view=entity-framework-6.2.0)
