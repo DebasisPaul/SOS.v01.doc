@@ -1,0 +1,15 @@
+*Create Cart Entities*
+- [get (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/get)
+- [set (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/set)
+- [init (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/init)
+- [namespace](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/namespace)
+- [class (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/class)
+- [Introduction to classes](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/classes)
+- [=> operator (C# reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-operator)
+- [Members (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/members)
+- [15 Structs](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/structs)
+- [Properties (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties)
+- [Indexers (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/indexers/)
+- [interface (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/interface)
+- [static (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/static)
+- 
