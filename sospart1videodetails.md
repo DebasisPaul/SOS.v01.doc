@@ -88,3 +88,11 @@ public class ShopOnlineDbContext:DbContext
     [SqlServerDbContextOptionsExtensions.UseSqlServer Method](https://docs.microsoft.com/en-us/dotnet/api/microsoft.entityframeworkcore.sqlserverdbcontextoptionsextensions.usesqlserver?view=efcore-6.0)
     [Configuration Class](https://docs.microsoft.com/en-us/dotnet/api/system.configuration.configuration?view=dotnet-plat-ext-6.0)
     [Connection Strings](https://docs.microsoft.com/en-us/ef/core/miscellaneous/connection-strings)
+    
+*Migration*
+    - [Migration.Down(MigrationBuilder) Method](https://docs.microsoft.com/en-us/dotnet/api/microsoft.entityframeworkcore.migrations.migration.down?view=efcore-6.0)
+    - [https://docs.microsoft.com/en-us/dotnet/api/microsoft.entityframeworkcore.migrations.migration.down?view=efcore-6.0](https://docs.microsoft.com/en-us/dotnet/api/microsoft.entityframeworkcore.migrations.migrationbuilder.droptable?view=efcore-6.0)
+   - [MigrationBuilder.InsertData Method](https://docs.microsoft.com/en-us/dotnet/api/microsoft.entityframeworkcore.migrations.migrationbuilder.insertdata?view=efcore-6.0)
+- [MigrationBuilder.CreateTable Method](https://docs.microsoft.com/en-us/dotnet/api/microsoft.entityframeworkcore.migrations.migrationbuilder.createtable?view=efcore-6.0)
+- [Migration.Up(MigrationBuilder) Method](https://docs.microsoft.com/en-us/dotnet/api/microsoft.entityframeworkcore.migrations.migration.up?view=efcore-6.0)
+    
