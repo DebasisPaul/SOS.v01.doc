@@ -8,6 +8,8 @@
 - Payment Gateway Integration
 
 *Project Workfow*
+
+*Part1*
 - Create ShopOnline.Web Blazor Web Aseembly App
 - Create ShopOnline.Api ASP.NET Core Web API 
 - Create Entities Folder // this is where the classes will represent our database entities will resides.
@@ -18,3 +20,7 @@
 - Seed Database by override OnModelCreating method
 - Create Entity framework core DBSet generic Type
 - Register ShopOnlineDbContext class for Dependency Injection
+
+*Part2*
+
+- Retrieving Product data from our database & returning the data to the client blazor component.
