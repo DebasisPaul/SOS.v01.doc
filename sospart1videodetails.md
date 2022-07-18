@@ -76,3 +76,15 @@ public class ShopOnlineDbContext:DbContext
   - [Defining DbSets](https://docs.microsoft.com/en-us/ef/ef6/modeling/code-first/dbsets)
   [DbSet Class](https://docs.microsoft.com/en-us/dotnet/api/system.data.entity.dbset?view=entity-framework-6.2.0)
   [DbSet<TEntity> Class](https://docs.microsoft.com/en-us/dotnet/api/system.data.entity.dbset-1?view=entity-framework-6.2.0)
+    
+    ```
+    builder.Services.AddDbContextPool<ShopOnlineDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ShopOnlineConnection"))
+);
+    ```
+   
+    - [Part 5, work with a database in an ASP.NET Core MVC app](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/working-with-sql?view=aspnetcore-6.0&tabs=visual-studio)
+    - [EntityFrameworkServiceCollectionExtensions.AddDbContextPool Method](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection.entityframeworkservicecollectionextensions.adddbcontextpool?view=efcore-6.0)
+    [SqlServerDbContextOptionsExtensions.UseSqlServer Method](https://docs.microsoft.com/en-us/dotnet/api/microsoft.entityframeworkcore.sqlserverdbcontextoptionsextensions.usesqlserver?view=efcore-6.0)
+    [Configuration Class](https://docs.microsoft.com/en-us/dotnet/api/system.configuration.configuration?view=dotnet-plat-ext-6.0)
+    [Connection Strings](https://docs.microsoft.com/en-us/ef/core/miscellaneous/connection-strings)
