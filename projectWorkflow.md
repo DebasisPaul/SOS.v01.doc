@@ -17,3 +17,4 @@
 - Create ShopOnlineContext Class
 - Seed Database by override OnModelCreating method
 - Create Entity framework core DBSet generic Type
+- Register ShopOnlineDbContext class for Dependency Injection
