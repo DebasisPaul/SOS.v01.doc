@@ -24,4 +24,5 @@
 *Part2*
 
 - Retrieving Product data from our database & returning the data to the client blazor component.
-- Create DTO Model
+- Create DTO Model, dto is an objetc that defines how the data will be send over the network.
+- Create Class Library project
