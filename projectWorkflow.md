@@ -24,3 +24,4 @@
 *Part2*
 
 - Retrieving Product data from our database & returning the data to the client blazor component.
+- Create DTO Model
