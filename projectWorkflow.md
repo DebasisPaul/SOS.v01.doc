@@ -4,7 +4,7 @@
 - SQL Server 2022
 - Blazor WebAssembly
 - Botstrap v5
-- Rwstful MVC Web API
+- Restful MVC Web API (for database related functionality and returning relavent data from the server to our client side Blazor Application)
 - Payment Gateway Integration
 
 *Project Workfow*
