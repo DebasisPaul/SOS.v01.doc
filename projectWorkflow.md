@@ -26,5 +26,6 @@
 - Retrieving Product data from our database & returning the data to the client blazor component.
 - Create DTO Model, dto is an objetc that defines how the data will be send over the network.
 - Create Class Library project
-- Using Repository Design Pattern To Abstract our data handling layout. Repositories are classes or component that encapsulate the logic required to access data sources.
+- Using Repository Design Pattern To Abstract our data handling layout. Repositories are classes or component that encapsulate the logic required to access data sources. We can use repositories to centralized common data access functionality. Which has the benefit of facilatating beta maintability, easier unit testing, extensibility & Cleaner Code.
 - Create Repositories folder
+- Create Interface name IProductRepository
