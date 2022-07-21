@@ -29,3 +29,5 @@
 - Using Repository Design Pattern To Abstract our data handling layout. Repositories are classes or component that encapsulate the logic required to access data sources. We can use repositories to centralized common data access functionality. Which has the benefit of facilatating beta maintability, easier unit testing, extensibility & Cleaner Code.
 - Create Repositories folder
 - Create Interface name IProductRepository
+- Create Product Repository
+- Create ProductController Class
