@@ -27,3 +27,9 @@ using System.Threading.Tasks;
 [HttpGet]
 ```
 - [How to use [HttpPost], [HttpGet] in ASP.NET Core Web API](https://docs.microsoft.com/en-us/answers/questions/497278/how-to-use-httppost-httpget-in-aspnet-core-web-api.html)
+
+```
+return StatusCode(StatusCodes.Status500InternalServerError, 
+                    "Error retrieving data from the database");
+```
+- [StatusCodes.Status500InternalServerError Field](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.http.statuscodes.status500internalservererror?view=aspnetcore-6.0)
