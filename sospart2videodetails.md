@@ -33,3 +33,4 @@ return StatusCode(StatusCodes.Status500InternalServerError,
                     "Error retrieving data from the database");
 ```
 - [StatusCodes.Status500InternalServerError Field](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.http.statuscodes.status500internalservererror?view=aspnetcore-6.0)
+- [Attribute Routing in ASP.NET Web API 2](https://docs.microsoft.com/en-us/aspnet/web-api/overview/web-api-routing-and-actions/attribute-routing-in-web-api-2)
