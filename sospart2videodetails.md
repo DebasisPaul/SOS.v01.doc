@@ -34,3 +34,10 @@ return StatusCode(StatusCodes.Status500InternalServerError,
 ```
 - [StatusCodes.Status500InternalServerError Field](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.http.statuscodes.status500internalservererror?view=aspnetcore-6.0)
 - [Attribute Routing in ASP.NET Web API 2](https://docs.microsoft.com/en-us/aspnet/web-api/overview/web-api-routing-and-actions/attribute-routing-in-web-api-2)
+
+```
+Microsoft.AspNetCore.Mvc Namespace
+Microsoft.AspNetCore.Http Namespace
+```
+- [Microsoft.AspNetCore.Http Namespace](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.http?view=aspnetcore-6.0)
+- [Microsoft.AspNetCore.Mvc Namespace](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.mvc?view=aspnetcore-6.0)
